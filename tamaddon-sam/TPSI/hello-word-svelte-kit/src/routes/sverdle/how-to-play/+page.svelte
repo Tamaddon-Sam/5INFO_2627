@@ -41,6 +41,11 @@
 		impossible to cheat. It uses <code>&lt;form&gt;</code> and cookies to submit data, meaning you can
 		even play with JavaScript disabled!
 	</p>
+	<script>
+		import Counter from './Counter.svelte';
+		......
+		import Banner from '../lib/components/banner.svelte'; // aggiungi questa linea
+	  </script>
 </div>
 
 <style>
@@ -91,5 +96,8 @@
 		font-size: 0.4em;
 		transform: scale(2) translate(0, -10%);
 		margin: 0 1em;
+	
 	}
+
 </style>
+
